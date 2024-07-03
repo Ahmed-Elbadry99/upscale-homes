@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/owl.carousel.min.css ">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- start navbar -->
+<nav class="navbar bg-body-tertiary navbar-expand-lg fixed-top ">
+  <div class="container">
+    <!-- logo -->
+    <a class="navbar-brand ms-2 ms-lg-0 " href="#">
+      <div class="row">
+        <div class="col-6 p-0 m-0">
+          <img src="images/Group 69521.svg" alt="">
+        </div>
+        <div class="col-6 p-0 m-0">
+          <div class="row d-flex brand-name">
+            <div class="col-12 p-0 m-0">
+            <p class="p-0 m-0">Upscale</p>
+            </div>
+            <div class="col-12 p-0 m-0">
+            <p class="p-0 m-0">Homes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+    <!-- toggler -->
+    <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="sidebar offcanvas offcanvas-start h-75" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body ">
+        <ul class="navbar-nav justify-content-center flex-grow-1 gap-3  pe-3 ">
+          <li class="nav-item ">
+            <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html">Contact Us</a>
+          </li>
+        
+        </ul>
+        <div class="navbar-nav">
+          <li class="nav-item pe-3">
+            <a class="nav-link"><i class="fa-solid fa-magnifying-glass fs-4"></i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-md-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Langauge
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><img src="images/image 1.svg"><span class="lang-name ps-2">Arabic</span></a></li>
+            
+              
+              
+            </ul>
+          </li>
+          <li class="nav-item mt-2 ms-2">
+            <a class="main-btn  fw-bold"  data-bs-toggle="modal" data-bs-target="#exampleModal">Register Your interest</a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- end navbar -->
+<!-- start carousel -->
+<div id="carouselExampleCaptions" class="carousel slide ">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="images/Rectangle 14 (3).png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="images/Rectangle 14 (4).png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="images/754a4c3f64c9b30a2affcdc78d6adf62.jfif" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- end carousel -->
+<!-- start about -->
+  <div class="about p-lg-5 ">
+    <div class="container py-5 m-lg-5 border border-light-subtle">
+      <div class="row d-flex  m-lg-5 ">
+        <div class="col-lg-6 image-container">
+          <div class="box">
+            <img class="img-fluid"  src="images/754a4c3f64c9b30a2affcdc78d6adf62.jfif" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 ">
+          <div class="about-content  pt-5 pt-lg-0">
+            <h1 class="fw-bold pb-4  ">About Us</h1>
+            <p class="pb-4 text-black-50">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+            <p class="pb-4 text-black-50">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like) sometimes on purpose (injected humour and the like) sometimes on purpose (injected humour and the like) .</p>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- end about -->
+<!-- what-we-do -->
+  <div class="our-works">
+    <div class="container">
+      <div class="row ">
+        <div class=" col-lg-6 ">
+          <div class="banner w-100 h-100 p-5 justify-content-center  m-auto align-items-center d-flex ">
+            
+          </div>
+        </div>
+        <div class=" col-lg-6 ps-5 ">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="item my-md-5 my-lg-0" data-work="1">
+                  <div class="child cl">
+                    <h1 >01</h1>
+                  </div>
+                  <div class="child">
+                    <h5>you can put here  name of stage one</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="item my-md-5 my-lg-0 " data-work="2">
+                  <div class="child cl">
+                    <h1 >02</h1>
+                  </div>
+                  <div class="child">
+                    <h5>you can put here  name of stage one</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6 justify-content-center">
+                <div class="item my-md-5 my-lg-0" data-work="3">
+                  <div class="child cl">
+                    <h1 >03</h1>
+                  </div>
+                  <div class="child">
+                    <h5>you can put here  name of stage one</h5>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="item my-md-5 my-lg-0" data-work="4">
+                  
+                  <div class="child cl">
+                    <h1 >04</h1>
+                  </div>
+                  <div class="child">
+                    <h5>you can put here  name of stage one</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+<!-- end what-we-do -->
+<!-- our services -->
+  <div class="our-service py-5 ">
+    <div class="container my-5">
+      <div class="header text-center pb-5">
+        <h1 class="text-uppercase fw-bold">our services</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3   ">
+          <div class="item ">
+            <div class="item-content  ps-lg-3  pb-3 text-center text-lg-start"> 
+                <img id="image-container" class="img-fluid pb-2 pt-3 text-center" src="images/Frame 436.svg" alt="SVG Image">
+             
+              <h5 class="fw-bold pb-4">Design Services</h5>
+              <h4><span class="fw-bold">More</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3  pb-5 ">
+          <div class="item ">
+            <div class="item-content ps-lg-3  pb-3 text-center text-lg-start">
+           
+              
+                <img id="image-container" class="img-fluid pb-2 pt-3 text-center" src="images/frame1.svg" alt="SVG Image">
+             
+              <h5 class="fw-bold pb-4">Design Services</h5>
+              <h4><span class="fw-bold">More</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3  pb-5 ">
+          <div class="item ">
+            <div class="item-content  ps-lg-3  pb-3 text-center text-lg-start">
+             
+              
+                <img id="image-container" class="img-fluid pb-2 pt-3 text-center" class="img-fluid pb-4" src="images/frame 2.svg" alt="SVG Image">
+         
+              <h5 class="fw-bold pb-4">Tendering Services</h5>
+              <h4><span class="fw-bold">More</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3  pb-5 ">
+          <div class="item ">
+            <div class="item-content  ps-lg-3  pb-3 text-center text-lg-start">
+             
+                <img id="image-container" class="img-fluid pb-2 pt-3 text-center" src="images/frame 4.svg" alt="SVG Image">
+             
+              <h5 class="fw-bold pb-4">Project Management Offic</h5>
+              <h4><span class="fw-bold">More</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3  pb-5 ">
+          <div class="item ">
+            <div class="item-content ps-lg-3  pb-3 text-center text-lg-start">
+
+                <img id="image-container" class="img-fluid pb-2 pt-3 text-center" src="images/frame 5.svg" alt="SVG Image">
+          
+              <h5 class="fw-bold pb-4">Surveying Services</h5>
+              <h4><span class="fw-bold">More</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3  pb-5 ">
+          <div class="item ">
+            <div class="item-content  ps-lg-3  pb-3 text-center text-lg-start">
+            
+                <img id="image-container" class="img-fluid pb-2 pt-3 text-center" src="images/frame 6.svg" alt="SVG Image">
+             
+              <h5 class="fw-bold pb-4">Consultancy Services</h5>
+              <h4><span class="fw-bold">More</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3  pb-5 ">
+          <div class="item ">
+            <div class="item-content ps-lg-3  pb-3 text-center text-lg-start">
+           
+                <img id="image-container" class="img-fluid pb-2 pt-3 text-center" src="images/frame 7.svg" alt="SVG Image">
+             
+              <h5 class="fw-bold pb-4">Valuation Services</h5>
+              <h4><span class="fw-bold">More</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3  pb-5 ">
+          <div class="item  ">
+            <div class="item-content ps-lg-3  pb-3 text-center text-lg-start">
+              <img id="image-container" class="img-fluid pb-2 pt-3 text-center" src="images/frame 8.svg" alt="SVG Image">
+              
+              <h5 class="fw-bold pb-2">Project Management Consultancy</h5>
+              <h4 class=""><span class="fw-bold">More</span></h4>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div class="text-center py-5">
+        <a class="main-btn ">All Services</a>
+      </div>
+    </div>
+  </div>
+<!-- end our-services -->
+<!-- projects -->
+  <div class="project-carsoul ">
+    <div class="container">
+      <div class="row">
+        <div class="header">
+          <div class="container">
+            <div class="row ">
+              <div class="col-sm-12 col-md-6 text-center text-lg-start col-lg-6 mb-5">
+                <h1 class="text-uppercase fw-bold">lastets projects</h1>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 mb-5 text-center text-lg-end">
+                <a class="main-btn">All Projects</a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div id="owl-demo" class="owl-carousel owl-one owl-theme">
+          <div class="item active">
+            <div class="card">
+              
+                <img src="images/Rectangle 14 (1).png" class="d-block w-100" alt="...">
+              
+                
+              <div class="card-body m-2">
+                  <h5 class="card-title fw-bold pb-3">Put The Title Of Project Here</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                      <a href="#" class="btn-link fs-5 fw-bold">More Details</a>
+              </div>
+          </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (2).png" class="d-block w-100" alt="...">
+              <div class="card-body m-2">
+                <h5 class="card-title fw-bold pb-3">Put The Title Of Project Here</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    <a href="#" class="btn-link fs-5 fw-bold">More Details</a>
+            </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (2).png" class="d-block w-100" alt="...">
+              <div class="card-body m-2">
+                <h5 class="card-title fw-bold pb-3">Put The Title Of Project Here</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    <a href="#" class="btn-link fs-5 fw-bold">More Details</a>
+            </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (1).png" class="d-block w-100" alt="...">
+              <div class="card-body m-2">
+                <h5 class="card-title fw-bold pb-3">Put The Title Of Project Here</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    <a href="#" class="btn-link fs-5 fw-bold">More Details</a>
+            </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (2).png" class="d-block w-100" alt="...">
+              <div class="card-body m-2">
+                <h5 class="card-title fw-bold pb-3">Put The Title Of Project Here</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    <a href="#" class="btn-link fs-5 fw-bold">More Details</a>
+            </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (1).png" class="d-block w-100" alt="...">
+              <div class="card-body m-2">
+                <h5 class="card-title fw-bold pb-3">Put The Title Of Project Here</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    <a href="#" class="btn-link fs-5 fw-bold">More Details</a>
+            </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (2).png" class="d-block w-100" alt="...">
+              <div class="card-body m-2">
+                <h5 class="card-title fw-bold pb-3">Put The Title Of Project Here</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    <a href="#" class="btn-link fs-5 fw-bold">More Details</a>
+            </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (1).png" class="d-block w-100" alt="...">
+              <div class="card-body m-2">
+                <h5 class="card-title fw-bold pb-3">Put The Title Of Project Here</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    <a href="#" class="btn-link fs-5 fw-bold">More Details</a>
+            </div>
+            </div>
+          </div>
+          <div class=" item">
+            <div class="card">
+              <img src="images/Rectangle 14 (2).png" class="d-block w-100" alt="...">
+              <div class="card-body m-2">
+                <h5 class="card-title fw-bold pb-3">Put The Title Of Project Here</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    <a href="#" class="btn-link fs-5 fw-bold">More Details</a>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+<!-- end projects -->
+<!-- clients -->
+  <div class="clients  my-5">
+    
+      <div class="row m-0 ">
+        <div class="header">
+          
+              <div class="text-center  my-5">
+                <h1 class="text-uppercase fw-bold">our clients</h1>
+              </div>
+             
+        
+        </div>
+        <div id="owl-demo" class="owl-carousel owl-two owl-theme p-0">
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (1).png" class="d-block w-100" alt="...">
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (2).png" class="d-block w-100" alt="...">
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (1).png" class="d-block w-100" alt="...">
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (2).png" class="d-block w-100" alt="...">
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/Rectangle 14 (1).png" class="d-block w-100" alt="...">
+              
+            </div>
+          </div>
+          <div class=" item">
+            <div class="card">
+              <img src="images/Rectangle 14 (2).png" class="d-block w-100" alt="...">
+              
+              </div>
+          </div>
+          
+          </div>
+          <div class="text-center py-5 mt-4 mb-5">
+            <a class="main-btn ">All Clients</a>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+<!-- end clients -->
+<!-- start footer -->
+    <div class="footer py-5  ">
+      <div class="container ">
+        <div class="row d-flex  justify-content-between align-items-center">
+          <div class="col-md-6 col-lg-4 text-center text-lg-start">
+            <div class="logo">
+              <div class="image-container ps-lg-4">
+                <img class="ps-lg-5" src="images/Group.png" alt="">
+              </div>
+              <h1 class="text-white  pt-1 fw-bold">Upscale Homes</h1>
+              <p class="text-white fs-5 pt-1">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius accusantium Eius accu
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-lg-2 text-center text-lg-start  text-white mt-3">
+              <h4 class="text-uppercase fw-bold ">site map</h4>
+                  <div class="links ">
+                    <ul class="list-unstyled">
+                      <li class="pb-3">Home</li>
+                      <li class="pb-3">About Us</li>
+                      <li class="pb-3">Services</li>
+                      <li class="pb-3">News</li>
+                      <li class="pb-3">Services</li>
+                        <li>projects</li>
+                    </ul>
+                  </div>
+               
+
+           
+          </div>
+          <div class="col-md-3 col-lg-2  text-center text-lg-start text-white mt-3">
+         
+            <h4 class="text-uppercase fw-bold">site map</h4>
+
+                <div class="links">
+                  <ul class="list-unstyled ">
+                    <li class="pb-3">Home</li>
+                    <li class="pb-3">About Us</li>
+                    <li class="pb-3">Services</li>
+                    <li class="pb-3">News</li>
+                    <li class="pb-3">Services</li>
+                      <li>projects</li>
+                  </ul>
+                </div>
+             
+
+         
+        </div>
+          <div class="col-md-6 col-lg-3 m-s2 mt-3 text-center text-lg-start">
+            <h4 class="text-white   pb-4 fw-bold">Contact Information</h4>
+            <div class="location p-3">
+              <i class="fa-solid fa-location-dot text-white"></i>
+              <span class="text-white">8775 Anbasah Ibn Sahim, As Sulimaniyah, dubai UAE,</span>
+            </div>
+            <div class="contact p-3 mt-2">
+              <div class="tel ">
+                <i class="fa-solid fa-phone text-white"></i>
+                <span class="text-white">+97123456789</span>
+              </div>
+              <div class="tel ">
+                <i class="fa-solid fa-envelope text-white"></i>
+                <span class="text-white">lnfo@impegineering.co.uk</span>
+              </div>
+              
+            </div>
+              <div class="social d-flex justify-content-center align-items-center">
+                <span class="fw-bold text-white">Follow Us :</span>
+                <div class="">
+                  <ul class="list-unstyled d-flex gap-3 m-1 p-1">
+                    <li><i class="fa-brands fa-instagram text-white"></i></li>
+                    <li><i class="fa-brands fa-x-twitter text-white"></i></li>
+                    <li><i class="fa-brands fa-youtube text-white"></i></li>
+                    <li><i class="fa-brands fa-facebook text-white"></i></li>
+                    <li> <i class="fa-brands fa-tiktok text-white"></i></li>
+                  </ul>
+                </div>
+                
+              </div>
+
+           
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- end footer -->
+<!-- copyright -->
+    <div class="copyright  text-center p-2">
+      <p class="m-0">All copywrite reserved by <span class="com-name fw-bold">Upscale  Homes</span></p>
+      
+    </div>
+<!-- end copyright -->
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+        <button type="button" class="btn-close rounded-circle bg-dark m-2 p-3 " data-bs-dismiss="modal" aria-label="Close"></button>
+     
+      <div class="modal-body">
+        <div class="contact-form  m-2">
+          
+              
+                  <div class="col  ">
+                      <h2>Send To Us</h2>
+                      <form action="" method="">
+                          
+                          <div class="form-floating mb-3">
+                              <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                              <label for="floatingInput">Name</label>       
+                          </div>
+                          <div class="form-floating mb-3">
+                              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                              <label for="floatingInput">E-Mail</label>
+                          </div> 
+                          <div class="input-group mb-3">
+                              <span class="input-group-text phone1 fw-bold" id="basic-addon1">+97</span>   
+                              <input type="text" class="form-control py-3 phone2" id="floatingInput" placeholder="">
+                                     
+                          </div>
+                          <div class="form-floating mb-3">
+                              <input type="text" class="form-control" id="floatingInput" placeholder="Subject">
+                              <label for="floatingInput">Subject</label>       
+                          </div>
+                            <div class="form-floating">
+                              <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea"></textarea>
+                              <label for="floatingTextarea">Message</label>
+                            </div>
+                            <div class="input-group my-3">
+                              <input type="submit" value="Send" class="w-100 text-white fw-bold border-0 p-2 fs-5">
+                            </div>
+                      </form>
+                  </div>
+              
+          
+      </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+<script src="jquery-1.9.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="fontawesome/js/all.min.js"></script>
+    <script src="index.js"></script>
+    <script src="owl.carousel.min.js"></script>
+
+
+</body>
+</html>
